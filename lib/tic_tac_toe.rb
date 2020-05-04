@@ -58,6 +58,7 @@ class TicTacToe
   end
 
   def turn
+    puts "Please choose a number 1-9:"
     input = gets.chomp
     index = input_to_index(input)
     token = current_player
